@@ -1,0 +1,27 @@
+{
+  "name": "devops-cra-temp",
+  "version": "1.0.6",
+  "keywords": [
+    "react",
+    "devops-react-cli",
+    "template"
+  ],
+  "description": "The base template for Create React App.",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaokgithub/devops-react-cli",
+    "directory": "packages/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaokgithub/devops-react-cli.git"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
