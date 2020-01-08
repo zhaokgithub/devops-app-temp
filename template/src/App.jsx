@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ErrorBoundary from './pages/exception/Error'
-
-
+import ErrorBoundary from './pages/exception/Error';
+import Index from './pages/index/index';
 
 @ErrorBoundary("error")
 class App extends Component{
@@ -14,7 +13,7 @@ class App extends Component{
 
     render(){
         return(
-            <div>hello react!</div>
+           <Index></Index>
         )
     }
 }
