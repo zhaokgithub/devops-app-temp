@@ -6,11 +6,10 @@ axios.interceptors.response.use(function (response) {
     return Promise.reject(error)
 })
 
-// 请求列表
 const requestList = []
-// 取消列表
 const CancelToken = axios.CancelToken
 let sources = {}
+//避免重复请求
 axios.interceptors.request.use((config) => {
   const request = JSON.stringify(config.url) + JSON.stringify(config.data)
   config.cancelToken = new CancelToken((cancel) => {
