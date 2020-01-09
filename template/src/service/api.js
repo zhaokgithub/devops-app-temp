@@ -1,15 +1,8 @@
-import request from './request'
+import request from './request';
+import {message} from 'antd';
+import appStores from './modules/store';
 
 let Api = {
-    getUserInfo: async function () {
-        let res = await request('/user/info')
-        if (res.status !== 200) {
-            return {
-                data: []
-            }
-        }
-        return res
-    },
-
+    ...appStores,
 }
 export default Api

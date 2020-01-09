@@ -1,6 +1,6 @@
 {
   "name": "devops-web-temp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "devops-react-cli",
@@ -21,7 +21,15 @@
     "url": "https://github.com/zhaokgithub/devops-cra-temp"
   },
   "files": [
-    "template",
+    "template/public",
+    "template/components",
+    "template/lib",
+    "template/pages",
+    "template/router",
+    "template/service",
+    "template/store",
+    "template/App.jsx",
+    "template/index.js",
     "template.json"
   ]
 }

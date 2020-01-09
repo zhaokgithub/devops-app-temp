@@ -8,7 +8,6 @@ class App extends Component{
         super(props)
     }
     componentDidMount(){
-        console.log('hello')
     }
 
     render(){
