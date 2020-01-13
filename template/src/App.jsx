@@ -8,6 +8,7 @@ class App extends Component{
         super(props)
     }
     componentDidMount(){
+        console.log(process.env.NODE_ENV)
     }
 
     render(){

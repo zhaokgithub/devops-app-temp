@@ -26,7 +26,7 @@ axios.interceptors.request.use((config) => {
 })
 
 const request = function (path, method = "get", data = {}) {
-    axios.defaults.baseURL = Window.CONFIG.URL ? Window.CONFIG.URL : window.location.origin; 
+    axios.defaults.baseURL = Window.CONFIG ? Window.CONFIG.URL : window.location.origin; 
     axios.defaults.headers.post['Content-Type'] = 'application/json';
     return new Promise((resolve, reject) => {
         axios[method](path)
