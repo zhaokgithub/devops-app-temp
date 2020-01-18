@@ -1,6 +1,6 @@
 {
   "name": "devops-app-temp",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "keywords": [
     "react",
     "devops-react-cli",
@@ -24,6 +24,6 @@
     "template/public",
     "template/components",
     "template/src",
-    "template.json"
+    "template/gitignore"
   ]
 }
