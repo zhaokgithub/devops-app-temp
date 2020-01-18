@@ -23,13 +23,7 @@
   "files": [
     "template/public",
     "template/components",
-    "template/lib",
-    "template/pages",
-    "template/router",
-    "template/service",
-    "template/store",
-    "template/App.jsx",
-    "template/index.js",
+    "template/src",
     "template.json"
   ]
 }
