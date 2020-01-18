@@ -1,7 +1,8 @@
-function Errror (){
-    return(
-        <div>error</div>
-    )
-}
+const routes = [
+    {
+        path:'',
+        component:''
+    }
+]
 
-export default Errror
+export default routes
