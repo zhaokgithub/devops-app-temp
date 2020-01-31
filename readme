@@ -6,12 +6,12 @@ npm install devops-app-temp
 `
 # Structure
 ## Dir structure
-* src/ 
-* src/pages
-* src/component
-* src/store
-* src/service
-* src/router
+* template/src/ 
+* template/src/pages
+* template/src/component
+* template/src/store
+* template/src/service
+* template/src/router
 
 ## Reactjs
 * antd
