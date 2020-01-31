@@ -1,6 +1,6 @@
 {
   "name": "devops-app-temp",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "keywords": [
     "react",
     "devops-react-cli",
@@ -10,7 +10,7 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhaokgithub/devops-cra-temp",
+    "url": "https://github.com/zhaokgithub/devops-app-temp",
     "directory": "template/"
   },
   "license": "MIT",
@@ -18,7 +18,7 @@
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/zhaokgithub/devops-cra-temp"
+    "url": "https://github.com/zhaokgithub/devops-app-temp"
   },
   "files": [
     "template/public",
