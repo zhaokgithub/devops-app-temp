@@ -3,7 +3,6 @@ import LayoutHeader from './LayoutHeader';
 import LayoutMenu from './LayoutMenu';
 import LayoutContent from './LayoutContent';
 import { Layout, Breadcrumb } from 'antd';
-import { Route } from 'react-router-dom';
 const { Sider, Content } = Layout;
 
 
