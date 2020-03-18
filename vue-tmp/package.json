@@ -1,0 +1,29 @@
+{
+    "name": "devops-app-vue-temp",
+    "version": "1.0.0",
+    "keywords": [
+      "react",
+      "devops-react-cli",
+      "template"
+    ],
+    "description": "The base template for react.",
+    "main": "template.json",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zhaokgithub/devops-app-temp",
+      "directory": "template/"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=8"
+    },
+    "bugs": {
+      "url": "https://github.com/zhaokgithub/devops-app-temp"
+    },
+    "files": [
+      "template/public",
+      "template/components",
+      "template/src",
+      "template/gitignore"
+    ]
+  }
