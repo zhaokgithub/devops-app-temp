@@ -9,7 +9,7 @@
     "antd": "3.26.11",
     "axios": "0.19.2",
     "dayjs": "1.8.20",
-    "devops-react-server": "1.1.3",
+    "devops-react-server": "1.1.x",
     "mobx": "5.15.4",
     "mobx-react": "^6.1.8",
     "react": "16.12.0",
