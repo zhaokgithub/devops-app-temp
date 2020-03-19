@@ -1,12 +1,12 @@
 {
-    "name": "devops-app-vue-temp",
+    "name": "devops-app-tempv",
     "version": "1.0.0",
     "keywords": [
-      "react",
-      "devops-react-cli",
+      "vue",
+      "devops-vue-cli",
       "template"
     ],
-    "description": "The base template for react.",
+    "description": "The base template for vue.",
     "main": "template.json",
     "repository": {
       "type": "git",
