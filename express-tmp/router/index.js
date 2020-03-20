@@ -1,8 +1,8 @@
 let express = require('express')
 let router = express.Router()
 
-router.get('/',function(req,res,next){
-    
+router.use('/',function(req,res,next){
+    let jwt = require('jsonwebtoken'); //用来生成token
 })
 
-export default router
+module.exports = router
