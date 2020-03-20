@@ -5,11 +5,9 @@ let appStore = {
     getUserInfo: async function () {
         let res = await request('/user/info', 'get')
         if (res.status !== 200) {
-            return {
-                data: []
-            }
+            message.warning('error')
         }
-        return res
+        return res && res.data ? res.data : {}
     },
 }
 
