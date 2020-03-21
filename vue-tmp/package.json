@@ -6,6 +6,7 @@
       "devops-vue-cli",
       "template"
     ],
+    "author": "zeke",
     "description": "The base template for vue.",
     "main": "template.json",
     "repository": {
