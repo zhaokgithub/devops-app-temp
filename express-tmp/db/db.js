@@ -1,12 +1,12 @@
 let mongoose = require('mongoose');
 let config = require('../config/config');
 
-mongoose.connect(config.db.host+config.db.port);
+let dbUrl = config.db.host+config.db.port+'/'+config.db.db_name
+mongoose.connect(dbUrl);
 
 let connection = mongoose.connection;
 connection.on('error', function(err){
    console.log( 'connection error:')
-    logger.error(err)
 });
 
 connection.on('connecting',function(){
