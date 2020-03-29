@@ -1,7 +1,7 @@
 let mongoose = require('../db');
 let Schema = mongoose.Schema;
 
-let userSchema = new Schema({
+let schema = new Schema({
     name:{type:String},
     password:{type:String},
     phone:{type:String},
@@ -12,5 +12,5 @@ let userSchema = new Schema({
     email:{type:String}
 })
 
-const userModel = mongoose.model('user', userSchema);
+const userModel = mongoose.model('user', schema);
 module.exports = userModel
