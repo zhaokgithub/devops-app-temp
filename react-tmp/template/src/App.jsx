@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ErrorBoundary from './pages/exception/Error';
 import { Provider } from 'mobx-react';
-import BasicLayout from './components/layout/LayoutBasic';
+import BasicLayout from './components/layout/Index';
 import store from './store/index';
 import 'antd/dist/antd.css';
-import './assets/styles/basic.css';
+import './assets/styles/basic.less';
 import { BrowserRouter } from 'react-router-dom';
 
 
@@ -15,10 +15,11 @@ class App extends Component {
         super(props)
     }
     render() {
+        const menuList=[{key:'test',path:'test',title:"",icon:""}]
         return (
             <Provider {...store}>
                 <BrowserRouter>
-                    <BasicLayout />
+                    <BasicLayout menu={menuList} type="top"/>
                 </BrowserRouter>
             </Provider>
         )

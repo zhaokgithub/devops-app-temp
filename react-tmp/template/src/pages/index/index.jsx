@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Api from '../../service/api';
+import { Row, Col } from 'antd'
 
 class Index extends Component {
 
@@ -10,7 +11,13 @@ class Index extends Component {
         let res = await Api.getUserInfo()
     }
     render() {
-        return (<div>Index</div>)
+        return (
+            <Row>
+                <Col span={4}>4</Col>
+                <Col span={16}>16</Col>
+                <Col span={4}>4</Col>
+            </Row>
+        )
     }
 }
 
