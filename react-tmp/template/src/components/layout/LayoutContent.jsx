@@ -5,7 +5,7 @@ import Index from 'pages/index/Index';
 function LayoutContent(props) {
     return (
         <div className="layout-content">
-            <Route path="/test" component={Index} exact></Route>
+            <Route path="/" component={Index} exact></Route>
         </div>
     )
 }

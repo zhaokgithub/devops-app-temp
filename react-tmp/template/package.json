@@ -15,7 +15,9 @@
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-router": "5.1.2",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "react-sortablejs": "^2.0.11",
+    "sortablejs": "^1.10.2"
   },
   "scripts": {
     "start": "devops-react-server start",

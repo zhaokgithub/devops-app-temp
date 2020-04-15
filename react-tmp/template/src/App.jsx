@@ -5,6 +5,7 @@ import BasicLayout from './components/layout/Index';
 import store from './store/index';
 import 'antd/dist/antd.css';
 import './assets/styles/basic.less';
+import './assets/styles/global.less';
 import { BrowserRouter } from 'react-router-dom';
 
 
