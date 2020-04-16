@@ -60,8 +60,8 @@ class Index extends Component {
             { icon: "select", txt: "选择器", type: 5 },
         ]
         return (
-            <Row>
-                <Col span={4} className="devops-layout-block">
+            <Row className="devops-layout-index">
+                <Col span={4} className="devops-block">
                     <p>基础控件</p>
                     <div className="devops-form-layout" style={{ cursor: 'pointer' }}>
                         {
@@ -73,7 +73,7 @@ class Index extends Component {
                         }
                     </div>
                 </Col>
-                <Col span={16} className="devops-layout-block">
+                <Col span={16} className="devops-block">
                     <div className="devops-form-container">
                         {
                             list.map(item => {

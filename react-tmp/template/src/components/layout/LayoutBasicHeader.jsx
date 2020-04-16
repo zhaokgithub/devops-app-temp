@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Menu from './LayoutMenu';
 import LayoutContent from './LayoutContent';
 import { Layout, Breadcrumb } from 'antd';
-const { Sider, Content, Header } = Layout;
+const {Content, Header } = Layout;
 
 
 class LayoutBasicHeader extends Component {
@@ -13,12 +13,14 @@ class LayoutBasicHeader extends Component {
     render() {
         if(this.props.type !=='top')return null
         return (
-            <Layout style={{ minHeight: '100vh' }}>
-                <Header></Header>
-                <Content style={{ padding: 20 }}>
-                    <Breadcrumb>
+            <Layout>
+                <Header className="devops-layout-header">
+                    <Menu mode={'horizontal'}></Menu>
+                </Header>
+                <Content className="devops-layout-content">
+                    {/* <Breadcrumb>
                         <Breadcrumb.Item>首页</Breadcrumb.Item>
-                    </Breadcrumb>
+                    </Breadcrumb> */}
                     <LayoutContent />
                 </Content>
             </Layout>

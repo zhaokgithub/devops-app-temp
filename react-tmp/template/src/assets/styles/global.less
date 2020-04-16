@@ -1,21 +1,35 @@
 //font
 @smallFont: 12px;
 @defaultFont: 14px;
-@largeFont:16px;
-@withe:#ffffff;
+@largeFont: 16px;
+@withe: #ffffff;
 
 
 
 
-.devops-layout-sider-theme{
+.devops-layout-sider-theme {
     font-size: 14px;
     color: @withe;
 }
-.devops-layout-sider-light{
+
+.devops-layout-sider-light {
     font-size: 14px;
 }
-.devops-layout-block{
-    min-height: 600px;
+
+.devops-layout-block {
     overflow: auto;
-    border-right:solid #ddd 1px;
+    height: 100%;
+    border-right: solid #ddd 1px;
+}
+
+.devops-layout-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.devops-layout-content{
+    padding:10px;
+    height: calc(100vh - 200px);
+    overflow: auto;
 }
