@@ -14,9 +14,9 @@ let routes = [
         component: Index
     },
     {
-        path: '/user',
-        icon: "user",
-        key: "user",
+        path: '/form',
+        icon: "file",
+        key: "form",
         name: "表单",
         component: User
     },
