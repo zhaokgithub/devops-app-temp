@@ -3,7 +3,6 @@ window.CONFIG={
         development:{},
         test:{},
         production:{}
-
     },
     LAYOUT:{
         type:"",

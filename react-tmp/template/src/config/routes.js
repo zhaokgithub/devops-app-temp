@@ -8,28 +8,10 @@ import Index from 'pages/index/Index';
 let routes = [
     {
         path: '/home',
-        key: "home",
+        key: "/home",
         icon: "home",
         name: "首页",
         component: Index
-    },
-    {
-        path: '/form',
-        icon: "file",
-        key: "form",
-        name: "表单",
-        component: User
-    },
-    {
-        path: '/flow',
-        icon: "user",
-        key: "flow",
-        name: "流程",
-        component: User
-    },
-    {
-        path: '404',
-        component: NotFound
     }
 ]
 
