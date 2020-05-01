@@ -3,7 +3,8 @@ module.exports ={
     db:{
         host:"mongodb://106.12.220.166:",
         port:27017,
-        db_name:'demo'
+        db_name:'demo',
+        password:''
     },
     jwtsecret:'sanatorium-v-1.0'
 }
