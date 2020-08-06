@@ -1,24 +1,26 @@
 import {observable,action} from 'mobx'
 
 class AppStore{
-    @observable userInfo = {name:'name'}
+    //登录用户信息
+    @observable userInfo = null;
     //记录当前路由
-    @observable pathname = ''
+    @observable pathname = '';
     //列表查询参数
-    @observable searchParams={name:'name2'}
-    @observable pagination={page:1,size:10}
+    @observable searchParams={};
+    //列表分页参数
+    @observable pagination={}
 
     @action
     setUserInfo = function(userInfo){
-        this.userInfo = userInfo
+        this.userInfo = Object({},userInfo)
     }
     @action
     setPathName = function(pathname){
-        this.pathname = pathname
+        this.pathname = Object({},pathname)
     }
  
     @action
-    setPagination =function(params) {
+    setSearchParams =function(params) {
         this.searchParams = Object.assign({},this.searchParams,params)
     }
 }
