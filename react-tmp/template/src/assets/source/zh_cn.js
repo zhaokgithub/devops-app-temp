@@ -1,6 +1,6 @@
-const ZH_CN={
+const zh_cn={
     COMMON_TXT:{
         title:'DEVOPS'
     }
 }
-window.ZH_CN = ZH_CN
+export default zh_cn
