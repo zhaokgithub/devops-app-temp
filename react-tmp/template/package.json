@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "devops-react-server start",
-    "build": "devops-react-server build",
+    "build": "devops-react-server build --node_env fat",
     "test": "devops-react-server test"
   },
   "babel": {
@@ -47,6 +47,11 @@
       "not op_mini all"
     ],
     "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "fat": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

@@ -18,7 +18,6 @@ class AppStore{
     setPathName = function(pathname){
         this.pathname = Object({},pathname)
     }
- 
     @action
     setSearchParams =function(params) {
         this.searchParams = Object.assign({},this.searchParams,params)
