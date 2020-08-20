@@ -21,7 +21,7 @@ class LayoutBasicHeader extends Component {
                     {/* <Breadcrumb>
                         <Breadcrumb.Item>首页</Breadcrumb.Item>
                     </Breadcrumb> */}
-                    <LayoutContent />
+                    <LayoutContent  {...this.props}/>
                 </Content>
             </Layout>
         )

@@ -14,13 +14,21 @@ import { BrowserRouter } from 'react-router-dom';
 class App extends Component {
     constructor(props) {
         super(props)
+        this.state={
+            role:2
+        }
+    }
+    componentDidMount(){
+        setTimeout(() => {
+            this.setState({role:4})
+        }, 2000);
     }
     render() {
         const menuList=[{key:'test',path:'test',title:"",icon:""}]
         return (
             <Provider {...store}>
                 <BrowserRouter>
-                    <BasicLayout menu={menuList} type="top"/>
+                    <BasicLayout menu={menuList} type="top" role={this.state.role}/>
                 </BrowserRouter>
             </Provider>
         )
